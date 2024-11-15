@@ -1,0 +1,44 @@
+/*Блоки кода*/
+
+//header
+@import "./header/header";
+//main
+@import "./main/about";
+@import "./main/video";
+@import "./main/proposal";
+@import "./main/quoute";
+@import "./main/home";
+@import "./main/services";
+//footer
+@import "./footer/footer";
+
+/*Нормализатор*/
+@import "./normolize/normolize";
+
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*Основные блоки кода*/
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+button{
+    background-color: #000000;
+    color: #ffffff;
+    padding-inline: 62px;
+    padding-block: 20px 19px;
+    cursor: pointer;
+    border: 0; 
+    transition: 0.7s;
+    font-size: 17px;
+    font-weight: 600;
+
+    &:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+}

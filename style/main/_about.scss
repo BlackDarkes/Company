@@ -1,0 +1,54 @@
+
+
+.about{
+    height: auto;
+    width: auto;
+
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        width: var(--block-width);
+        height: 538px;
+        margin-inline: var(--center-inline);
+        margin-block: 190px;
+
+        .block-number{
+
+            &__ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 60px;
+
+                .number{
+                    &__title{
+                        font-size: 64px;
+                        font-weight: 300;
+                    }
+
+                    &__text{
+                        font-weight: 400;
+                        color: var(--color-gray);
+                    }
+                }
+            }
+        }
+
+        .information{
+            display: flex;
+            flex-direction: column;
+            row-gap: 60px;
+
+            &__title{
+                font-size: 44px;
+                font-weight: 700;
+                line-height: 61.6px;
+            }
+
+            .text-block{
+                display: flex;
+                flex-direction: column;
+                row-gap: 6px;
+            }
+        }
+    }
+}

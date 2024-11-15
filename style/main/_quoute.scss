@@ -1,0 +1,36 @@
+.quoute{
+    width: auto;
+    height: auto;
+
+    &__block{
+        width: var(--block-width);
+        height: 506px;
+        margin-inline: var(--center-inline);
+        margin-bottom: 190px;
+
+        .text-block{
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+            &__title{
+                color: var( --color-gray);
+                margin-bottom: 20px;
+            }
+
+            &__maint{
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 54px;
+            }
+
+            &__bottomt{
+                color: var(--color-darck);
+
+                .bottom-text--grey{
+                    color: var(--color-gray);
+                }
+            }
+        }
+    }
+}

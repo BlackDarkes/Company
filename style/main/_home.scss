@@ -1,0 +1,19 @@
+.home{
+    width: auto;
+    height: auto;
+
+    &__block{
+        width: auto;
+        height: 900px;
+        margin-block: var(--center-inline);
+        margin-block: 190px;
+
+        .home-image{
+
+            &__img{
+                height: 900px;
+                width: 100vw;
+            }
+        }
+    }
+}

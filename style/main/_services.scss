@@ -1,0 +1,39 @@
+.services{
+    width: auto;
+    height: auto;
+
+    &__block{
+        width: var(--block-width);
+        height: 610px;
+        margin-inline: var(--center-inline);
+        margin-block: 190px;
+
+        .list-block{
+
+            .list{
+
+                .lister{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-block: 40px;
+
+                    &:nth-child(-2n+3){
+                        border-block: 1px solid black;
+                    }
+
+                    &__title{
+                        font-size: 32px;
+                        font-weight: 500;
+                        color: var(--color-darck);
+                    }
+
+                    &__maint{
+                        min-width: 570px;
+                        line-height: 24px;
+                        color: var(--color-gray);
+                    }
+                }
+            }
+        }
+    }
+}
